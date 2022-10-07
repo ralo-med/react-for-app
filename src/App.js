@@ -15,25 +15,7 @@ function App() {
   };
 
   console.log(toDos);
-  return (
-    <div>
-      <h1>My To Dos ({toDos.length})</h1>
-      <form onSubmit={onSubmit}>
-        <input
-          onChange={onChange}
-          value={toDo}
-          type="text"
-          placeholder="Write your to do ..."
-        />
-      </form>
-      <hr />
-      <ul>
-        {toDos.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul>
-      <button>Add To Do</button>
-    </div>
-  );
+  return <div></div>;
 }
+
 export default App;
